@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+.honey-unit {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+
+    
+}
+
+#honey-button {
+    color: #000;
+    font-size: 50px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    background-color: #fca311;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    left: 200px;
+    right: 200px;
+    border-radius: 35%;
+    border: 2mm solid #fca311;
+}
+
+
+body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+html {
+    background: radial-gradient(circle 250px, #000, #ffb703);
+}
+
+.store {
+    padding-right: 20px;
+    margin: 10px;
+    width: 30%;
+    height: 150px;
+}
+
+.display-screen {
+    position: fixed;
+    width: 350px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    right: 5px;
+    text-align: right;
+    margin-top: -30px;  
+}
+
+.display-screen p {
+    margin-right: 10px;
+    margin-top: 50px;
+}
+
+.store-and-display-screen {
+    width: 30%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    border-radius: 15px;
+}
+
+#store-buttons button {
+    height: 70px;
+    width: 230px;
+    color: black;
+    background-image: linear-gradient(to right top, #9fd0d3, #56bfe6, #3aa5fc, #8a7bf5, #d428be);
+    display: block;
+    font-weight: bold;
+    border: 2.5mm ridge #cdb4db;
+    font-size: 17px;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#upgradeClicker {
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+button:active {
+    
+    transform: translateY(2px);
+}
